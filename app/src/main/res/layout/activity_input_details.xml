@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputDetailsActivity"
+   >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:id="@+id/imgClose"
+            android:src="@drawable/ic_close"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Input Details"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+
+        android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name :"
+            android:fontFamily="@font/baloo"
+
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victor Abraham Oke Udo "
+            android:id="@+id/txtName"
+            android:fontFamily="@font/baloo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:fontFamily="@font/baloo"
+
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victor Abraham Oke Udo "
+            android:fontFamily="@font/baloo"
+            android:id="@+id/txtLastName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:fontFamily="@font/baloo"
+
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victor Abraham Oke Udo "
+            android:id="@+id/txtEmail"
+            android:fontFamily="@font/baloo" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:fontFamily="@font/baloo"
+
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victor Abraham Oke Udo "
+            android:id="@+id/txtUsername"
+            android:fontFamily="@font/baloo" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PhoneNumber :"
+            android:fontFamily="@font/baloo"
+
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victor Abraham Oke Udo "
+            android:fontFamily="@font/baloo"
+            android:id="@+id/txtPhoneNumber"/>
+
+
+
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/blue"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            app:icon="@drawable/ic_exit"
+            app:iconGravity="textStart"
+            app:elevation="10dp"
+            android:textColor="@color/white"
+            app:iconTint="@color/white"
+            android:layout_marginBottom="15dp"
+            android:text="EXIT"
+            android:id="@+id/btnExit"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/imglogo"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/internship"
+                    android:layout_margin="8dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/zuri"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="internship.zuri.team"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/baloo"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>
